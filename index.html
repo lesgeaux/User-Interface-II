@@ -4,6 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unit 1, Module 3, Project: CSS with Flexbox</title>
+
+    <link rel="stylesheet" href="index.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+        <!--makes scroll bar dark if moving up and down-->
+        <script type="text/javascript">
+            $(window).on('scroll', function(){
+                if($(window).scrollTop()){
+                    $('nav').addClass('black');
+                  }
+                else
+                  {
+                    $('nav').removeClass('black');
+                   }
+            })
+            </script>
 </head>   
 
     <body>
