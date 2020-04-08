@@ -3,9 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    <title>Unit 1, Module 3, Project: CSS with Flexbox</title>
+
+    <link rel="stylesheet" href="index.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+        <!--makes scroll bar dark if moving up and down-->
+        <script type="text/javascript">
+            $(window).on('scroll', function(){
+                if($(window).scrollTop()){
+                    $('nav').addClass('black');
+                  }
+                else
+                  {
+                    $('nav').removeClass('black');
+                   }
+            })
+            </script>
+</head>   
+
     
-</body>
-</html>
+        <nav>
+    <div class="logo">
+      <img src="logo.png">
+    </div>
+    <ul>
+    <li><a href="#" class="active">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Portfolio</a></li>
+    <li><a href="#">Blog</a></li>
+    <li><a href="#">Contact</a></li>
+    
+    </ul>
+        </nav>
+        <section class="sec1"></section>
+        <section class="content">
+          <h1>First Section</h1>
+          <h2>Lambda Launch
+          </h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit nam unde et, voluptatem rerum cupiditate mollitia optio eveniet? Ad, consequuntur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate facere, quae et molestias natus iure delectus numquam facilis vel? Illum corporis quo consequuntur nostrum, excepturi molestiae? Soluta cum ex exercitationem nemo corrupti impedit! Qui neque corrupti sit recusandae modi voluptate consequuntur atque, porro quasi at minus similique aut amet debitis.
+          </p>
+        </section>
+        <section class="sec2"></section>
+        <section class="content">
+          <h2>HTML & CSS</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, necessitatibus similique nostrum facilis nihil delectus, ut accusantium maiores, recusandae dignissimos quos labore aliquam qui doloremque non! Hic exercitationem modi ipsam.
+            <br><br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, optio. Cumque eius neque dolor. Quasi facilis sed quae possimus omnis sunt laudantium, dolores fugiat molestiae eum sequi vero ratione exercitationem!
+          </p>
+          <section class="sec3"></section>
+        <section class="content">
+            <h1>GitHub</h1>
+          <h1>Lorem ipsum dolor sit amet.</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, necessitatibus similique nostrum facilis nihil delectus, ut accusantium maiores, recusandae dignissimos quos labore aliquam qui doloremque non! Hic exercitationem modi ipsam.
+            <br><br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, optio. Cumque eius neque dolor. Quasi facilis sed quae possimus omnis sunt laudantium, dolores fugiat molestiae eum sequi vero ratione exercitationem!
+          </p>
+      </body>
+    </html>
